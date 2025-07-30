@@ -7,24 +7,24 @@ import Dashboard from './Dashborad/Dashboard'
 
 function App() {
   
-  useEffect(()=>{
-      const timer = setInterval(()=> {
-            console.log("Tick")
-        },1000);
-        return()=>{
-            clearInterval(timer);
-            console.log("CleanUp")
-        };
-    },[])
+  // useEffect(()=>{
+  //     const timer = setInterval(()=> {
+  //           console.log("Tick")
+  //       },1000);
+  //       return()=>{
+  //           clearInterval(timer);
+  //           console.log("CleanUp")
+  //       };
+  //   },[])
 
   return (
     
     <>
 
-    {/* <Dashboard/> */}
+    <Dashboard/>
     
     
-    <Counter/>
+    {/* <Counter/> */}
     {/* <Greet/> */}
       
     </>
